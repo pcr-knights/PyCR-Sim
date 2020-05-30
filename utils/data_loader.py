@@ -355,10 +355,10 @@ if __name__ == "__main__":
     for col in df.columns:
         print(col, df[col][0])
 
-    # df = db.getSkillAction(302100101)
-    # print(df.head(10))
-    # for col in df.columns:
-    #     print(col, df[col][0])
+    df = db.getSkillAction(302100101)
+    print(df.head(10))
+    for col in df.columns:
+        print(col, df[col][0])
 
 
 
